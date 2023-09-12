@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 
-import WipeFont from '@/components/home/wipeFont1'
+import WipeFont from '@/components/home/wipeFont'
 import CoursesBox from '../components/home/coursesBox'
 
 export default function Home() {

@@ -22,7 +22,7 @@ function GraphicsExample() {
 }
 
 export default function WipeFont(){
-  const blurFilter = useMemo(() => new BlurFilter(4), []);
+
   const [screenWidth, setScreenWidth] = useState(400)
 
   const containerRef = useRef<HTMLDivElement>(null)
@@ -50,7 +50,7 @@ export default function WipeFont(){
      <Stage 
       width={screenWidth}
       height={300}
-      options={{ backgroundColor: 'white'}}
+      options={{ backgroundColor: 0xffffff}}
      >
       
       {/* <Sprite
@@ -60,9 +60,9 @@ export default function WipeFont(){
         anchor={{ x: 0.5, y: 0.5 }}
       /> */}
 
-      <Container x={100} y={130}>
+      <Container x={100} y={100}>
         <Text 
-          text="Hellocode" 
+          text="<Code.world/>" 
           anchor={{ x: 0, y: 0.5 }}  
           style={
             new TextStyle({
@@ -72,7 +72,7 @@ export default function WipeFont(){
           }
         />
       </Container>
-      <GraphicsExample />
+      {/* <GraphicsExample /> */}
     </Stage>
     </div>
   )
