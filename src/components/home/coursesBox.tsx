@@ -235,7 +235,7 @@ export default function CoursesBox({children}:Props){
       window.removeEventListener('wheel',scrollHandel)
     }
 
-  },[])
+  },[controller])
 
 
   return (

@@ -48,7 +48,7 @@ export default function CourseCard({courseData}: Props){
       })
     }
 
-  },[])
+  },[arrowController,controller,courseData.id])
 
 
   return (

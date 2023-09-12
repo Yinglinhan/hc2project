@@ -31,7 +31,7 @@ export default function NavHeader(){
         <div className="flex gap-4">
         {
           ["RoadMap","Shares","Cases","About"].map((ele,index)=>{
-            return <span className='border border-black p-1 pl-3 pr-3 text-sm rounded-md'>{ele}</span>
+            return <span key={index} className='border border-black p-1 pl-3 pr-3 text-sm rounded-md'>{ele}</span>
           })
         }
         </div>

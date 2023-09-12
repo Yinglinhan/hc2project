@@ -111,7 +111,7 @@ export default function Main(){
     })
 
 
-  },[])
+  },[screenWidth])
 
   return(
     <div

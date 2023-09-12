@@ -64,7 +64,7 @@ import { motion,useTransform,useMotionValue } from "framer-motion"
       disMove.set(distance)
       // console.log(angle);
     })
-  },[])
+  },[angleMove,disMove])
 
   return (
     <div>
