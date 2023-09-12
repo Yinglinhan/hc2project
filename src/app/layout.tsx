@@ -8,8 +8,8 @@ import NavHeader from '../components/rootLayout/navHeader'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'hellocde v2',
-  description: '好奇代码第二版更新',
+  title: 'hellocode v2ing',
+  description: '好奇代码第二版开发中',
 }
 
 export default function RootLayout({
